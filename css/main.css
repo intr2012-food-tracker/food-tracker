@@ -1,0 +1,40 @@
+
+/* -------GENERAL------- */
+
+body {
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+}
+
+/* -------HEADER------- */
+
+.headerSpot {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+/* -------INPUT------- */
+
+.mainInput{
+    float: left;
+}
+
+.titleInput{
+}
+
+/* -------OUTPUT------- */
+
+.mainOutput{
+    float: left;
+}
+
+.titleOutput{
+}
+
+/* -------FOOTER------- */
