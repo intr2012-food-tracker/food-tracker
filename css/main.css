@@ -24,9 +24,8 @@ body {
 
 .mainInput{
     float: left;
-    width: 35%;
-    height: 100%;
-    margin: 2em;
+    width: 45%;
+    margin: 2em 0em 0em 2em;
 }
 
 .windowInput{
@@ -64,13 +63,31 @@ body {
     outline: none;
 }
 
+/* -------ADD BUTTON------- */
+
+.addButtonItem {
+    margin: 1em;
+    text-align: center;
+}
+
+.addButtonInput {
+    width: 100%;
+    padding: 1em;
+    color: white;
+    background-color: #007aff;
+    border-color: #60acff;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
 /* -------OUTPUT: GENERAL------- */
 
 .mainOutput{
     float: right;
-    width: 35%;
-    height: 100%;
-    margin: 2em;
+    width: 45%;
+    margin: 2em 2em 0em 0em;
 }
 
 .windowOutput{
