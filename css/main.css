@@ -1,9 +1,9 @@
 
-/* -------GENERAL------- */
+/* -------MASTER------- */
 
 body {
     font-size: 1em;
-    font-family: Helvetica, sans-serif;
+    font-family: "Work Sans", sans-serif;
     color: white;
     background-color: black;
     border-style: solid;
@@ -13,28 +13,81 @@ body {
 /* -------HEADER------- */
 
 .headerSpot {
+    color: #ffd000;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    margin: 0.5em 0em 0.5em 0em;
+    margin: 0.5em 0em 0em 0em;
+    display: none;
 }
 
-/* -------INPUT------- */
+/* -------INPUT: GENERAL------- */
 
 .mainInput{
     float: left;
+    width: 35%;
+    height: 100%;
+    margin: 2em;
+}
+
+.windowInput{
+    border: 0.05em;
+    border-style: solid;
+    border-color: #2d2d2d;
+    background-color: #303030;
+
 }
 
 .titleInput{
+    font-size: 1em;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin: 0em 0em 0.5em 0em;
 }
 
-/* -------OUTPUT------- */
+/* -------INPUT: ITEMS------- */
+
+.mainDishItem, .sideDishItem {
+   display: block;
+   margin: 1em;
+
+   font-weight: 400;
+}
+
+.mainDishInput, .sideDishInput {
+    float: right;
+    background-color: #111111;
+    color: white;
+    border-color: black;
+
+}
+
+/* -------OUTPUT: GENERAL------- */
 
 .mainOutput{
-    float: left;
+    float: right;
+    width: 35%;
+    height: 100%;
+    margin: 2em;
+}
+
+.windowOutput{
+    border: 0.15em;
+    border-style: solid;
+    border-color: white;
 }
 
 .titleOutput{
+    font-size: 1em;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin: 0em 0em 0.5em 0em;
 }
+
+/* -------OUTPUT: ITEMS------- */
 
 /* -------FOOTER------- */
