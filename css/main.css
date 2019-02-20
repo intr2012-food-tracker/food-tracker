@@ -29,6 +29,7 @@ body {
 }
 
 .windowInput{
+    height: 50%;
     border: 0.05em;
     border-style: solid;
     border-color: #282828;
@@ -97,6 +98,8 @@ body {
     border-color: #282828;
     background-color: #0f0f0f;
     padding: 1em;
+    overflow: auto;
+    height: 30em;
 }
 
 .titleOutput{
