@@ -80,6 +80,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.15em;
+    outline: none;
 }
 
 /* -------OUTPUT: GENERAL------- */
@@ -95,6 +96,7 @@ body {
     border-style: solid;
     border-color: #282828;
     background-color: #0f0f0f;
+    padding: 1em;
 }
 
 .titleOutput{
@@ -107,5 +109,13 @@ body {
 }
 
 /* -------OUTPUT: ITEMS------- */
+
+.listItemOutput li {
+    line-height: 2em;
+    border-bottom: 0.05em;
+    border-bottom-color: #282828;
+    border-bottom-style: solid;
+    margin: 0em 0em 1em 0em;
+}
 
 /* -------FOOTER------- */
