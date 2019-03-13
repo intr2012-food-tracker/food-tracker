@@ -3,7 +3,7 @@
 
 body {
     font-size: 1em;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Play", sans-serif;
     color: white;
     background-color: black;
 }
@@ -13,7 +13,7 @@ body {
 .headerSpot {
     color: white;
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 400;
     text-align: left;
     margin: 0.5em 0em 0em 1em;
 
@@ -35,7 +35,7 @@ body {
 
 .titleInput{
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.15em;
@@ -46,18 +46,18 @@ body {
 
 /* -------INPUT: ITEMS------- */
 
-.mainDishItem, .sideDishItem, .mealTypeItem, .mealDrinkItem, .mealCalItem, .timeHourItem, .dateMonthItem, .dateDayItem, .dateYearItem {
-   display: block;
-    height: 4em;
-   font-weight: 500;
+.mainDishItem, .sideDishItem, .mealTypeItem, .mealDrinkItem, .mealCalItem, .dateMonthItem, .dateDayItem, .dateYearItem {
+    display: block;
+    height: 15%;
+    font-weight: 700;
 }
 
-.mainDishInput, .sideDishInput, .mealTypeInput, .mealDrinkInput, .mealCalInput, .timeHourInput, .dateMonthInput, .dateDayInput, .dateYearInput {
+.mainDishInput, .sideDishInput, .mealTypeInput, .mealDrinkInput, .mealCalInput, .dateMonthInput, .dateDayInput, .dateYearInput {
     float: right;
-    display: inline-flex;
-    background-color: #0c0c0c;
+    display: inline-block;
+    background-color: black;
     color: white;
-    border-color: #282828;
+    border-color: white;
     border-style: solid;
     border-width: 0.05em;
     outline: none;
@@ -67,10 +67,16 @@ body {
     display: inline;
 }
 
+
+.dateMonthInput, .dateDayInput, .dateYearInput {
+    margin: 0em 0em 0em 1em;
+}
+
 /* -------ADD BUTTON------- */
 
 .addButtonItem {
     text-align: center;
+    margin: 2em 0em 0em 0em
 }
 
 .addButtonInput {
@@ -80,18 +86,16 @@ body {
     background-color: black;
     border-color: white;
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     outline: none;
 }
 
 .addButtonInput:hover{
-
-color: black;
-background-color: white;
-transition:.25s ease-in-out;
-
+    color: black;
+    background-color: white;
+    transition:.25s ease-in;
 }
 
 
@@ -112,7 +116,7 @@ transition:.25s ease-in-out;
 
 .titleOutput{
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.15em;

@@ -5,8 +5,7 @@ let mealEntries = [
     type: `Dinner`,
     drink: `Water`,
     cal: 600,
-    datetime: {
-        time: `7:15PM`,
+    date: {
         month: `February`,
         day: 18,
         year: 2019,
@@ -18,8 +17,7 @@ let mealEntries = [
     type: `Drink`,
     drink: `Espresso`,
     cal: 50,
-    datetime: {
-        time: `6:25 PM`,
+    date: {
         month: `February`,
         day: 18,
         year: 2019,
@@ -31,8 +29,7 @@ let mealEntries = [
     type: `Snack`,
     drink: `Water`,
     cal: 250,
-    datetime: {
-        time: `4:30PM`,
+    date: {
         month: `February`,
         day: 18,
         year: 2019,
@@ -43,9 +40,8 @@ let mealEntries = [
     side: `Fries`,
     type: `Lunch`,
     drink: `Soda`,
-    cal: 250,
-    datetime: {
-        time: `1:05PM`,
+    cal: 750,
+    date: {
         month: `February`,
         day: 18,
         year: 2019,
@@ -57,8 +53,7 @@ let mealEntries = [
     type: `Breakfast`,
     drink: `Coffee`,
     cal: 500,
-    datetime: {
-        time: `9:15AM`,
+    date: {
         month: `February`,
         day: 18,
         year: 2019,
