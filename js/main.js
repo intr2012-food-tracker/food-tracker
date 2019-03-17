@@ -60,3 +60,22 @@ let mealEntries = [
     },
 }
 ];
+
+let listMeals = [
+    {
+        id: 0,
+        main: `Greek Yogurt`,
+        side: `Granola`,
+        type: `Breakfast`,
+        drink: `Coffee`,
+        cal: 500,
+        date: {
+            month: `February`,
+            day: 18,
+            year: 2019,
+        },
+    }
+];
+
+const allMeals = document.getElementById('allMeals');
+const mealEntry = document.getElementById('mealEntry')

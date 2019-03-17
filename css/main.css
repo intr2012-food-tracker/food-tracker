@@ -8,32 +8,55 @@ body {
     background-color: black;
 }
 
+.motionBackground {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+  }
+
 /* -------HEADER------- */
 
 .headerSpot {
-    color: white;
-    font-size: 2em;
-    font-weight: 400;
-    text-align: left;
-    margin: 0.5em 0em 0em 1em;
+    background-color: black;
+    float: left;
+    width: 10%;
+    border-right-width: 0.1em;
+    border-right-style: solid;
+    border-right-color: right;
+    height: 100vh;
+}
 
-    display: none;  
+.headerSpotText {
+    color: white;
+    font-family: "Syncopate", sans-serif;
+    position: relative;
+    top: 80%;
+    left: 0%;
+    font-size: 5em;
+    font-weight: 500;
+    transform: rotate(-90deg);  
 }
 
 /* -------INPUT: GENERAL------- */
 
-.mainInput{
+.mainInput {
     float: left;
     width: 30%;
 }
 
-.windowInput{
+.windowInput {
     padding: 1em;
     background-color: black;
+    border-right-width: 0.1em;
+    border-right-style: solid;
+    border-right-color: white;
     height: 100vh;
 }
 
-.titleInput{
+.titleInput {  
     font-size: 1em;
     font-weight: 700;
     text-align: center;
@@ -48,11 +71,13 @@ body {
 
 .mainDishItem, .sideDishItem, .mealTypeItem, .mealDrinkItem, .mealCalItem, .dateMonthItem, .dateDayItem, .dateYearItem {
     display: block;
-    height: 15%;
-    font-weight: 700;
+    height: 10%;
+    font-weight: 500;
 }
 
 .mainDishInput, .sideDishInput, .mealTypeInput, .mealDrinkInput, .mealCalInput, .dateMonthInput, .dateDayInput, .dateYearInput {
+    font-family: "Play";
+    font-weight: 400;
     float: right;
     display: inline-block;
     background-color: black;
@@ -65,6 +90,10 @@ body {
 
 .dateMonthItem, .dateDayItem, .dateYearItem {
     display: inline;
+}
+
+.dateMonthItem, .dateDayItem, .dateYearItem {
+    border-radius: 1em;
 }
 
 
@@ -103,12 +132,12 @@ body {
 
 .mainOutput{
     float: right;
-    width: 70%;
+    width: 60%;
     margin: 0em 0em 0em 0em;
 }
 
 .windowOutput{
-    background-color: white;
+    background-color: black;
     padding: 1em;
     overflow: auto;
     height: 100vh;
@@ -121,7 +150,21 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     margin: 0em 0em 2em 0em;
-    color: black;
+    color: white;
+}
+
+.allMealsList {
+    line-height: 1.5em;
+    list-style: none;
+    margin: 0em 1.5em 0em 1.5em;
+
+}
+
+.allMealsList li {
+    border-bottom: 0.05em;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    margin-bottom: 1.5em;
 }
 
 /* -------OUTPUT: ITEMS------- */
