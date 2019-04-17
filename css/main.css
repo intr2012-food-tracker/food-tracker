@@ -5,25 +5,25 @@ body {
     font-size: 1em;
     font-family: "Play", sans-serif;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.motionBackground {
+.motionBG {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    overflow: hidden;
-  }
+    z-index: -100;
+}
 
 /* -------HEADER------- */
 
 .headerSpot {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     float: left;
     width: 10%;
-    border-right-width: 0.1em;
+    border-right-width: 0.05em;
     border-right-style: solid;
     border-right-color: right;
     height: 100vh;
@@ -49,8 +49,8 @@ body {
 
 .windowInput {
     padding: 1em;
-    background-color: black;
-    border-right-width: 0.1em;
+    background-color: rgba(0, 0, 0, 0);
+    border-right-width: 0.05em;
     border-right-style: solid;
     border-right-color: white;
     height: 100vh;
@@ -80,7 +80,7 @@ body {
     font-weight: 400;
     float: right;
     display: inline-block;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     border-color: white;
     border-style: solid;
@@ -95,7 +95,6 @@ body {
 .dateMonthItem, .dateDayItem, .dateYearItem {
     border-radius: 1em;
 }
-
 
 .dateMonthInput, .dateDayInput, .dateYearInput {
     margin: 0em 0em 0em 1em;
@@ -112,7 +111,7 @@ body {
     width: 100%;
     padding: 1em;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     border-color: white;
     font-size: 1em;
     font-weight: 700;
@@ -137,7 +136,7 @@ body {
 }
 
 .windowOutput{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     padding: 1em;
     overflow: auto;
     height: 100vh;
